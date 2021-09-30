@@ -19,10 +19,7 @@
 	<layout>default</layout>
 	</repository>
 	</distrubutionManagement
-<id>ossrh</id>
-<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-</repository>
-</distributionManagement>
+
   <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
