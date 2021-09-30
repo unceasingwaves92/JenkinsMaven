@@ -18,7 +18,7 @@
 	<url>file:///E:/Devops Bootcamp/karthik/mavenrepo</url>
 	<layout>default</layout>
 	</repository>
-	</distrubutionManagement
+	</distrubutionManagement>
 
   <dependencies>
         <dependency>
