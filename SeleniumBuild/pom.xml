@@ -3,17 +3,12 @@
   <groupId>SeleniumBuild</groupId>
   <artifactId>SeleniumBuild</artifactId>
   <version>0.0.1-SNAPSHOT</version>
- 
-<distributionManagement>
-<repository>
-	<uniqueVersion>false</uniqueVersion>
-	<id>corp1</id>
-	<name>Corporate Repository</name>
-	<url>file:///E:/Devops Bootcamp/karthik/mavenrepo</url>
-	<layout>default</layout>
-</repository>
-</distrubutionManagement>
-
+  <properties>
+ <maven.compiler.source>1.7</maven.compiler.source>
+ <maven.compiler.target>1.7</maven.compiler.target>
+ </properties>
+  
+  
   <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
