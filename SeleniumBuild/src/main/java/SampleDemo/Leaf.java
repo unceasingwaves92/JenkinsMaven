@@ -20,6 +20,7 @@ public class Leaf {
 		driver.findElementById("password").sendKeys("crmsfa");
 		driver.findElementByClassName("decorativeSubmit").click();
 		driver.findElementByClassName("decorativeSubmit").click();
+		System.out.println("Testing is completed");
 		driver.close();
 	}
 
